@@ -1,6 +1,6 @@
-# 🚀 Flask Assignment (Q1, Q2, Q3)
+#  Flask Assignment (Q1, Q2, Q3)
 
-## 📌 Overview
+##  Overview
 
 This project implements three APIs using Flask and SQLAlchemy:
 
@@ -10,18 +10,18 @@ This project implements three APIs using Flask and SQLAlchemy:
 
 ---
 
-## 🧩 Question 1: Inventory API
+##  Question 1: Inventory API
 
-### 🔹 Features
+###  Features
 
 * Fetch inventory using date filter
 * Includes related item details
 
-### 📡 Endpoint
+###  Endpoint
 
 GET /getInventoryDetails?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD
 
-### ✅ Sample Output
+###  Sample Output
 
 ```json
 [
@@ -36,17 +36,17 @@ GET /getInventoryDetails?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD
 
 ---
 
-## 🔔 Question 2: Device Notification API
+##  Question 2: Device Notification API
 
-### 🔹 Features
+###  Features
 
 * Returns devices where configuration changed
 
-### 📡 Endpoint
+###  Endpoint
 
 GET /deviceConfigNotification
 
-### ✅ Sample Output
+###  Sample Output
 
 ```json
 [
@@ -59,19 +59,19 @@ GET /deviceConfigNotification
 
 ---
 
-## 🌐 Question 3: Social Networking API (Posts)
+##  Question 3: Social Networking API (Posts)
 
-### 🔹 Features
+###  Features
 
 * Fetch posts uploaded by users
 * Pagination using page & limit
 * Simulates social media feed
 
-### 📡 Endpoint
+###  Endpoint
 
 GET /getPostsUploaded?page=1&limit=5
 
-### ✅ Sample Output
+###  Sample Output
 
 ```json
 [
@@ -86,7 +86,7 @@ GET /getPostsUploaded?page=1&limit=5
 
 ---
 
-## 🧠 Database Design
+##  Database Design
 
 ### Tables Used:
 
@@ -97,7 +97,7 @@ GET /getPostsUploaded?page=1&limit=5
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 ### Inventory API
 
@@ -113,13 +113,13 @@ GET /getPostsUploaded?page=1&limit=5
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 pip install -r requirements.txt
 python app.py
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Priyanshi Gupta
