@@ -112,14 +112,37 @@ GET /getPostsUploaded?page=1&limit=5
 ![Posts](screenshots/posts.png)
 
 ---
+#  Folder Structure
 
+```bash
+flask-assignment/
+│
+├── screenshots/                  ← API output screenshots
+│   ├── inventory_api.png
+│   ├── device_notification.png
+│   └── posts_api.png
+│
+├── app.py                        ← Main Flask application
+├── requirements.txt             ← Project dependencies
+├── README.md                    ← Project documentation
+└── .gitignore                   ← Git ignored files
+```
+
+---
+# Tech Stack
+| Layer | Technology |
+|-------|-------------|
+| Language | Python |
+| Framework | Flask |
+| ORM | SQLAlchemy |
+| Database | SQLite |
+| API Testing | Postman |
+| Server | Flask Development Server |
+
+---
 ##  How to Run
 
 pip install -r requirements.txt
 python app.py
 
 ---
-
-##  Author
-
-Priyanshi Gupta
